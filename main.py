@@ -31,7 +31,7 @@ def fibonacci(n):
 
 myLinkedList = l.LinkedList()
 # add first 100 elements of the Fibonacci sequence to linked list
-for i in range(0, 10, 1):
+for i in range(0, 100, 1):
     myLinkedList.append(fibonacci(i))
 
 
